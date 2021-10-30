@@ -1,0 +1,378 @@
+@font-face {
+  font-family: "zillaslabRegular";
+  src: url(zillaslab-regular-webfont.woff);
+}
+
+body{
+  background-color:rgb(223, 191, 159);
+  }
+
+.menuList {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CD7D3D;
+    margin: -8px;
+    margin-bottom: 0px;
+
+
+  }
+
+  .leftList {
+    float: left;
+  }
+
+  .rightList {
+      float: right;
+  }
+
+  .menuBox {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 28px;
+    text-decoration: none;
+    font-family: zillaslabRegular;
+    font-size: 140%;
+  }
+
+  .menuBox:hover {
+    background-color: #C55A11;
+    color: #F6FBE6;
+  }
+
+  .billede {
+    background-image: url('../firmahjemmeside3/Menu.jpg');
+    min-height: 690px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    background-attachment: fixed;
+
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .billede2 {
+    background-image: url('../firmahjemmeside3/download.jfif');
+    min-height: 300px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    background-attachment: fixed;
+
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+.billede3 {
+    background-image: url('../firmahjemmeside3/AdobeStock_263911828.jpeg');
+    min-height: 300px;
+    position: relative;
+    background-position-y: 250%;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    background-attachment: fixed;
+
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .billede4 {
+    background-image: url('../firmahjemmeside3/croissant.jpg');
+    min-height: 300px;
+    position: relative;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+
+
+    background-attachment: fixed;
+
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .tekst {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+    color: #F6FBE6;
+    letter-spacing: 8px;
+    font-size: 60px;
+    font-family: zillaslabRegular;
+    margin-bottom: 0px;
+  }
+
+  .tekst2 {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #F6FBE6;
+    letter-spacing: 8px;
+    font-size: 120px;
+    font-family: zillaslabRegular;
+    margin-bottom: 0px;
+  }
+
+
+.logoPaaParalaxDiv {
+  display: flex;
+
+}
+
+.logoPaaParalax {
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+
+}
+
+
+
+.logoPaaParalaxDiv2 {
+  display: flex;
+
+}
+
+.logoPaaParalax2 {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  margin-bottom: 2%;
+
+}
+
+.side {
+  background-color: #CD7D3D;
+  display: flex;
+  margin-right: -8px;
+  margin-top: 80px;
+  margin-left: -8px;
+  margin-bottom: 80px;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.side img {
+  width: 384px;
+  height: 216px;
+  margin-bottom: 0px;
+  margin-top: -30px;
+}
+
+.side h2 {
+  margin-top: 15%;
+  font-size: 50px;
+  color: #F6FBE6;
+  font-family: zillaslabRegular;
+  
+}
+
+.side p {
+  color: #F6FBE6;
+  font-family: zillaslabRegular;
+  margin-bottom: 50px;
+}
+
+.side a {
+  text-decoration: none;
+}
+
+.billedeLokation {
+
+margin-right: 6%;
+}
+
+.billedeVoreskaffe {
+  margin-right: 6%;
+}
+
+
+
+.tab3 {
+  color: rgb(41, 0, 0);
+}
+.tab2 {
+  color: rgb(41, 0, 0);
+}
+.tab {
+  color: rgb(41, 0, 0);
+}
+
+.del1 {
+
+  padding: 10px
+}
+.Ebeltoft {
+  float: left;
+  margin-right: 150px;
+  border: 10px solid  #800000;
+}
+.hojre {
+  float: left;
+
+}
+
+
+.Hej {
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+
+}
+.kaffe {
+  float: left;
+  margin-left: 10px;
+}
+.Kaffebønner {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.bønner {
+margin-bottom: -20px;
+}
+.Art {
+  float: left;
+}
+.Toplogo {
+  margin-left: 45%;
+  width: 8%;
+  margin-top: -8px;
+  margin-bottom: -70px;
+}
+
+
+.voresKaffeDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.fyldText {
+  font-family: zillaslabRegular;
+  background-color: #CD7D3D;
+  color: #C55A11;
+  margin-right: 18%;
+  margin-left: 18%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+.fyldText2 {
+  font-family: zillaslabRegular;
+  background-color: #CD7D3D;
+  color: #F6FBE6;
+  font-size: 21px;
+  padding-top: 3%;
+  padding-left: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.fyldText3 {
+  font-family: zillaslabRegular;
+  background-color: #CD7D3D;
+  color: #F6FBE6;
+  margin-right: 18%;
+  margin-left: 18%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-right: 15%;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+.fyldText4 {
+  font-family: zillaslabRegular;
+  background-color: #CD7D3D;
+  color: #F6FBE6;
+  margin-right: 18%;
+  margin-left: 18%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-right: 15%;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+.deling {
+  width: 45%;
+  margin-left: -32px;
+  float: left;
+  text-align: left;
+  margin-right: -42px;
+  margin-bottom: -8px;
+  line-height: 70%;
+}
+.deling2 {
+  text-align: center;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  line-height: 70%;
+}
+
+.menuLogoer {
+  margin-left: 20%;
+}
+
+.menuLogoer1 {
+  margin-left: 35%;
+}
+
+.menuLogoer2 {
+  margin-left: 28%;
+}
+
+.Hello {
+font-size: 30px;
+
+}
+
+.Hello2 {
+  font-size: 50px;
+
+  }
+
+.Yes {
+  margin-left: 50px;
+}
+
+.tekstStykke {
+margin-left: 5.5%;
+font-family: zillaslabRegular;
+color: #C55A11;
+
+}
+
+.underOverskrift {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.underUnderOverskrift {
+  font-size: 25px;
+}
